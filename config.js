@@ -5,14 +5,20 @@
 // ---------------------------------------------------------------------------
 
 window.SITE_CONFIG = {
-
+forecaster_name: "Your Nickname Here",
+tagline: "Fundamentals, incumbency and money, averaged with the generic ballot",
+method: [
+  "Each race starts from the district's partisan lean (PVI), whether an incumbent is running, and how much each candidate has spent relative to the other. The House model is fit on 2018 to 2024 elections; the Senate model on 2012 to 2024.",
+  "The national House vote comes from averaging two estimates: a fundamentals model built on presidential approval, gas prices and how strong the president's party was last time, and the generic-ballot polls, corrected for their past lean toward Democrats. Together they put Democrats at about 53.6% of the national vote.",
+  "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals and chances of a majority come from 10,000 simulated elections."
+],
   // The name shown at the top of your site. A nickname or made-up forecaster
   // name is fine and recommended. Do not put your real name, email, photo,
   // or anything else that identifies you on this site.
-  forecaster_name: "",
+  forecaster_name: "Michael Kluger",
 
   // One short line under the name (optional).
-  tagline: "",
+  tagline: "Fundamentals, incumbency and money, averaged with the generic ballot",
 
   // A plain-language description of YOUR model, in your own words. Each line in
   // quotes is one paragraph, followed by a comma. Two or three short paragraphs:
@@ -25,8 +31,9 @@ window.SITE_CONFIG = {
   //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
   method: [
-    "",
-    ""
+    "Each race starts from the district's partisan lean (PVI), whether an incumbent is running, and how much each candidate has spent relative to the other. The House model is fit on 2018 to 2024 elections; the Senate model on 2012 to 2024.",
+  "The national House vote comes from averaging two estimates: a fundamentals model built on presidential approval, gas prices and how strong the president's party was last time, and the generic-ballot polls, corrected for their past lean toward Democrats. Together they put Democrats at about 53.6% of the national vote.",
+  "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals and chances of a majority come from 10,000 simulated elections."
   ],
 
   // Your data files. Leave these alone unless you renamed your files.
